@@ -24,9 +24,13 @@
 												<form action="#" method="post">			
 													<input name="Email" placeholder="Email Address" type="text" required="">						
 													<input name="Password" placeholder="Password" type="password" required="">										
-													<div class="sign-up">
-														<input type="submit" value="Sign in"/>
-													</div>
+													<div class="sign-up" style=" margin-top: 30px; ">
+														<a
+
+														style="padding: 10px ;background: black; color: white; width: 5%; height: 5%;border-radius: 10px;"
+														 href="{{('template.admin')}}">Login</a>
+																			
+													</div>					
 												</form>
 											</div>
 										</div> 
@@ -131,4 +135,4 @@
 			</nav>
 		</div>
 	</div>
-<!-- //header -->
+<!-- //header

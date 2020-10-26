@@ -29,3 +29,18 @@ Route::get('/template.produk', function () {
 Route::get('/template.about', function () {
     return view('template.about');
 });
+
+////////////////////////// Admin
+
+Route::get('/template.admin', function () {
+    return view('template.admin.beranda');
+});
+
+
+Route::get('/template.admin.produk', function () {
+    return view('template.admin.produk');
+});
+
+Route::get('/template.admin.kategori', function () {
+    return view('template.admin.kategori');
+});
